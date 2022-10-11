@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>FSPL Hesaplayıcı</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Free Space Path Loss Hesaplayıcı</h1>
+        </div>
+        <div class="main">
+            <table>
+                <tr>
+                    <td><p>Uzaklık (km) :</p></td>
+                    <td><input type="text" id="distance" required></td>
+                    <td><div class="result-div"><p>Sonuç (dB) : <span class="result"></span></p></div></td>
+                </tr>
+                <tr>
+                    <td><p>Frekans (MHz) :</p></td>
+                    <td><input type="text" id="frequency" required></td>
+                </tr>
+                <tr>
+                    <td><p>Verici Kazancı (dB) :</p></td>
+                    <td><input type="text" id="transmitter" required></td>
+                </tr>
+                <tr>
+                    <td><p>Alıcı Kazancı (dB) :</p></td>
+                    <td><input type="text" id="receiver" required></td>
+                </tr>
+            </table>
+            <button class="calculate-button">Hesapla</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

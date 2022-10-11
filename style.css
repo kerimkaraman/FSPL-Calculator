@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/*
+0549BB : mavi renk
+*/
+.container {
+  width: 60%;
+  border: 1px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+.container .header {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 1rem auto;
+}
+.container .main {
+  width: 60%;
+  margin: 2rem auto;
+}
+.container .main td {
+  font-size: 1.2rem;
+}
+.container .main td .result-div {
+  width: 5rem;
+  background-color: #6C747C;
+  margin-left: 2rem;
+  width: 15rem;
+  color: white;
+  border-radius: 10px;
+}
+.container .main td .result-div p {
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.container .main td input {
+  font-size: 1.2rem;
+}
+.container .calculate-button {
+  font-size: 1.2rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #0549BB;
+  border: 1px solid #0549BB;
+  color: white;
+  border-radius: 5px;
+}
+.container .calculate-button button {
+  margin: 1rem auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.container .calculate-button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
